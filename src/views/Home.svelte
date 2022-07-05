@@ -4,6 +4,7 @@
     import HomeRegisterCard from "../lib/molecules/components/HomeRegisterCard.svelte";
     import Header from "../lib/molecules/components/Header.svelte";
     import { location } from '../store';
+    import Footer from "../lib/molecules/components/Footer.svelte";
 
 
     const saveLocation = ({coords}) => {
@@ -33,7 +34,7 @@
             <HomeRegisterCard/>
         </div>
     </div>
-    <div class="item footer">footer</div>
+    <Footer/>
 </div>
 
 
@@ -67,8 +68,4 @@
         display:grid;
         place-content: center;
     }
-    .footer {
-        border:blue solid 1px;
-    }
-
 </style>
