@@ -1,0 +1,46 @@
+{
+    "restaurants":[
+        {
+            "name":"El Lola",
+            "cardimage":"https://res.cloudinary.com/stand/image/upload/v1656442300/foodzinder/el_lola_olovfl.jpg",
+            "latitude":36.01262356471236, 
+            "longitude":-5.601947540478133,
+            "city":"Tarifa",
+            "id":1
+        },
+        {
+            "name":"La Pescadería",
+            "cardimage":"https://res.cloudinary.com/stand/image/upload/v1656442533/foodzinder/la_pescader%C3%ADa_txrzud.jpg",
+            "latitude":36.01309525707782, 
+            "longitude":-5.6043827,
+            "city":"Tarifa"
+        }
+    ],
+    "menus":[
+        {
+            "name":"Pasta carbonara",
+            "cardimage":"https://res.cloudinary.com/stand/image/upload/v1657033670/foodzinder/pasta_z3co26.jpg",
+            "keywords":["pasta","italiana","europa"],
+            "restaurant":{
+                "name":"El Lola",
+                "cardimage":"https://res.cloudinary.com/stand/image/upload/v1656442300/foodzinder/el_lola_olovfl.jpg",
+                "latitude":36.01262356471236, 
+                "longitude":-5.601947540478133,
+                "city":"Tarifa",
+                "id":1
+            }
+        },
+        {
+            "name":"Pasta Marinera",
+            "cardimage":"https://res.cloudinary.com/stand/image/upload/v1657033800/foodzinder/pasta1_gdplfk.jpg",
+            "keywords":["pasta","del mar"],
+            "restaurant":{
+                "name":"La Pescadería",
+                "cardimage":"https://res.cloudinary.com/stand/image/upload/v1656442533/foodzinder/la_pescader%C3%ADa_txrzud.jpg",
+                "latitude":36.01309525707782, 
+                "longitude":-5.6043827,
+                "city":"Tarifa"
+            }
+        }
+    ]
+}
